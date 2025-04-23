@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AR Navigation Onboarding</title>
+  <link rel="stylesheet" href="ui.css"/>
+  
+</head>
+<body>
+  <div class="container">
+    <div class="top-logo">
+      <span class="dulani">Dulani</span><span class="separator"> | </span><span class="stc">stc</span>
+    </div>
+    <div class="icon">
+      <img src="img.png" alt="Map Icon" />
+    </div>
+    <div class="text">
+      <p><strong>Step Into <span class="highlight">T6</span> and start<br/> your AR Navigation</strong></p>
+    </div>
+    <button class="start-button" id="startBtn">Start</button>
+</div>
+<script>
+    document.getElementById("startBtn").addEventListener("click", function() {
+      window.location.href = "AR-Camera.html";
+    });
+  </script>
+  
+</body>
+</html>
